@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate of Character</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            border: 2px solid #add8e6; /* Light blue border */
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .header {
+            background: linear-gradient(to bottom, #b3d5f6, #77b1eb);
+            color: #fff;
+            border-radius: 5px;
+            padding: 15px;
+            text-align: left;
+            font-size: 18px;
+            font-weight: bold;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .content {
+            padding: 20px;
+            font-size: 16px;
+            text-align: left;
+        }
+
+        .content p {
+            color: #add8e6; /* Light blue color */
+            border: 1px solid black; /* Black border */
+            padding: 10px;
+            border-radius: 5px;
+            cursor: text; /* Typing cursor on hover */
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .content p::before {
+            content: "";
+            position: absolute;
+            top: -5px;
+            left: -5px;
+            right: -5px;
+            bottom: -5px;
+            border: 2px solid #add8e6; /* Light blue border */
+            border-radius: 5px;
+            pointer-events: none;
+        }
+
+        .content p:hover {
+            background-color: #f0f8ff; /* Light blue background on hover */
+        }
+
+        .footer {
+            font-size: 12px;
+            color: #555;
+            text-align: right;
+            padding: 20px;
+            background-color: #f1f1f1;
+            border: 2px solid #add8e6; /* Light blue border */
+            border-radius: 5px;
+            position: relative;
+            margin-top: auto;
+        }
+
+        .footer::before {
+            content: "";
+            position: absolute;
+            top: 30%;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background-color: #add8e6; /* Light blue line */
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: #0044cc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            Check Validity of Certificate of Character
+        </div>
+        <div class="content">
+            <p>This is a valid Certificate for Devina GOPAUL issued on 12/12/2024 with no conviction(s).</p>
+        </div>
+    </div>
+    <div class="footer">
+        Copyright&copy; 2023 DPP. All rights reserved. Designed by LCI.
+    </div>
+</body>
+</html>
+
+
